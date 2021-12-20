@@ -13,6 +13,8 @@ public interface ManagerRepository extends JpaRepository<Manager,Long> {
     @Override
     Optional<Manager> findById(Long id);
 
+    Optional<Manager>findByName(String name);
+
     ManagerRepository findById();
 
 }

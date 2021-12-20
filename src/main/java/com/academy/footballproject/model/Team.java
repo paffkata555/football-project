@@ -28,5 +28,5 @@ public class Team {
 
 
     @OneToMany(mappedBy = "team")
-    private Set<Manager> managers;
+    private Set<Manager> manager;
 }

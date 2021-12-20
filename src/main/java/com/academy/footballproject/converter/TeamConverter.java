@@ -1,8 +1,6 @@
 package com.academy.footballproject.converter;
 
-import com.academy.footballproject.dto.ManagerDto;
 import com.academy.footballproject.dto.TeamDto;
-import com.academy.footballproject.model.Manager;
 import com.academy.footballproject.model.Team;
 import org.springframework.stereotype.Component;
 
