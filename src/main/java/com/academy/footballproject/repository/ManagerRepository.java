@@ -15,6 +15,5 @@ public interface ManagerRepository extends JpaRepository<Manager,Long> {
 
     Optional<Manager>findByName(String name);
 
-   ManagerRepository findById();
 
 }
